@@ -1,48 +1,25 @@
-# =========================
-# Data & Outputs
-# =========================
-data/*
-outputs/*
-# =========================
-# Models
-# =========================
-*.pkl
-*.model
-*.h5
-*.pt
+# 데이터 / 모델 / 출력 (GitHub 업로드 제외)
+data/
+models/
+outputs/
+catboost_info/
 
-# =========================
 # Python
-# =========================
 __pycache__/
 *.py[cod]
-*.so
+*.egg-info/
+.eggs/
+dist/
+build/
 
-# Virtual Environment
+# 환경
+.env
+.venv/
 venv/
-.env/
 
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# Logs & Temp
-# =========================
-logs/
-*.log
-tmp/
-temp/
-
-# =========================
-# OS / Editor
-# =========================
+# 시스템
 .DS_Store
-.vscode/
-.idea/
+*.log
 
-# =========================
-# submissions
-# =========================
-*.csv
+# 가상환경
+venv/
