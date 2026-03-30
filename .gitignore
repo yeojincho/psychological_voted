@@ -23,3 +23,6 @@ venv/
 
 # 가상환경
 venv/
+
+# 이미지 파일
+notebooks/images/*
